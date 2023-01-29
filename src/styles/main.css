@@ -1,0 +1,40 @@
+@import './tailwind/tailwind.css';
+@import './tailwind/new.css';
+@import './fonts.css';
+@import './loader.css';
+:root {
+    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+button {
+    background: #5cb85c !important;
+    font-family: 'Lato', sans-serif !important;
+    font-family: 'Lexend Deca', sans-serif !important;
+    /* font-family: 'Gambetta' !important; */
+}
+.bg-brand {
+    color: #5cb85c;
+    background: #5cb85c;
+}
+.text-brand {
+    color: #5cb85c;
+}
+.bg-transparent {
+    background: transparent !important;
+}
+@media(min-width: 500px){
+    .lg-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobile-hidden {
+        display: none;
+    }
+
+    .mobile-w-full {
+        width: 90%;
+    }
+    
+}
