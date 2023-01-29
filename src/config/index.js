@@ -1,5 +1,4 @@
 const config = {
-    BASE_URL: 
-    'http://localhost/kwarathreads'
+    BASE_URL: 'https://kwarathreads.herokuapp.com'
 }
 export  { config };
